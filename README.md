@@ -43,7 +43,7 @@ The final cell asserts that the generated `results.json` matches `expected_resul
 | `G1_Theme2_S4_Analysis.py` | Tested analysis pipeline |
 | `expected_results.json` | Published aggregate results for exact comparison |
 | `requirements.txt` | Pinned analysis dependencies |
-| `runtime.txt` | Pins Python 3.13 for Binder |
+| `runtime.txt` | Pins Python 3.12 for Binder |
 
 ## Run locally
 
