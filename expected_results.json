@@ -1,0 +1,356 @@
+{
+ "cleaning_log": {
+  "raw": 32593,
+  "missing_registration_date": 45,
+  "late_registration": 18,
+  "pre_cutoff_withdrawal": 5002,
+  "cohort": 27528,
+  "unique_learners": 24835,
+  "at_risk_n": 12150,
+  "at_risk_pct": 44.14,
+  "vle_rows_cohort": 2763370,
+  "clicks_cohort": 9827686,
+  "assessment_rows_cohort": 25081,
+  "grade_n": 20398,
+  "imd_missing": 1028,
+  "imd_missing_pct": 3.73,
+  "known_imd": 26500,
+  "activity_types": 18
+ },
+ "tables": {
+  "all": {
+   "n": 27528,
+   "share_pct": 100.0,
+   "clicks_mean": 357.0,
+   "clicks_sd": 430.9,
+   "clicks_median": 225.0,
+   "clicks_iqr": 380.0,
+   "grade_mean": 73.1,
+   "grade_sd": 21.6,
+   "grade_median": 78.0,
+   "grade_iqr": 23.0,
+   "grade_n": 20398,
+   "risk_n": 12150,
+   "risk_pct": 44.14
+  },
+  "imd_0_10": {
+   "n": 2647,
+   "share_pct": 9.62,
+   "clicks_mean": 309.8,
+   "clicks_sd": 415.1,
+   "clicks_median": 178.0,
+   "clicks_iqr": 342.0,
+   "grade_mean": 70.6,
+   "grade_sd": 22.2,
+   "grade_median": 75.0,
+   "grade_iqr": 24.33333333333333,
+   "grade_n": 1861,
+   "risk_n": 1484,
+   "risk_pct": 56.06
+  },
+  "imd_40_50": {
+   "n": 2713,
+   "share_pct": 9.86,
+   "clicks_mean": 337.3,
+   "clicks_sd": 410.0,
+   "clicks_median": 202.0,
+   "clicks_iqr": 358.0,
+   "grade_mean": 72.7,
+   "grade_sd": 21.7,
+   "grade_median": 77.0,
+   "grade_iqr": 21.5,
+   "grade_n": 1987,
+   "risk_n": 1196,
+   "risk_pct": 44.08
+  },
+  "imd_90_100": {
+   "n": 2240,
+   "share_pct": 8.14,
+   "clicks_mean": 393.8,
+   "clicks_sd": 479.2,
+   "clicks_median": 264.0,
+   "clicks_iqr": 376.25,
+   "grade_mean": 76.3,
+   "grade_sd": 19.5,
+   "grade_median": 80.0,
+   "grade_iqr": 19.0,
+   "grade_n": 1727,
+   "risk_n": 781,
+   "risk_pct": 34.87
+  },
+  "disability_y": {
+   "n": 2610,
+   "share_pct": 9.48,
+   "clicks_mean": 334.5,
+   "clicks_sd": 438.5,
+   "clicks_median": 198.5,
+   "clicks_iqr": 355.75,
+   "grade_mean": 71.5,
+   "grade_sd": 21.6,
+   "grade_median": 75.0,
+   "grade_iqr": 24.0,
+   "grade_n": 1831,
+   "risk_n": 1404,
+   "risk_pct": 53.79
+  },
+  "disability_n": {
+   "n": 24918,
+   "share_pct": 90.52,
+   "clicks_mean": 359.4,
+   "clicks_sd": 430.0,
+   "clicks_median": 228.0,
+   "clicks_iqr": 382.0,
+   "grade_mean": 73.3,
+   "grade_sd": 21.6,
+   "grade_median": 78.0,
+   "grade_iqr": 23.0,
+   "grade_n": 18567,
+   "risk_n": 10746,
+   "risk_pct": 43.13
+  },
+  "age_0_35": {
+   "n": 19172,
+   "share_pct": 69.65,
+   "clicks_mean": 320.2,
+   "clicks_sd": 369.6,
+   "clicks_median": 209.0,
+   "clicks_iqr": 340.25,
+   "grade_mean": 72.8,
+   "grade_sd": 21.2,
+   "grade_median": 77.0,
+   "grade_iqr": 22.0,
+   "grade_n": 14160,
+   "risk_n": 8843,
+   "risk_pct": 46.12
+  },
+  "age_35_plus": {
+   "n": 8356,
+   "share_pct": 30.35,
+   "clicks_mean": 441.6,
+   "clicks_sd": 536.6,
+   "clicks_median": 275.0,
+   "clicks_iqr": 477.25,
+   "grade_mean": 73.7,
+   "grade_sd": 22.3,
+   "grade_median": 78.0,
+   "grade_iqr": 23.214285714285722,
+   "grade_n": 6238,
+   "risk_n": 3307,
+   "risk_pct": 39.58
+  },
+  "male": {
+   "n": 15169,
+   "share_pct": 55.1,
+   "clicks_mean": 418.1,
+   "clicks_sd": 457.5,
+   "clicks_median": 290.0,
+   "clicks_iqr": 419.0,
+   "grade_mean": 75.0,
+   "grade_sd": 18.6,
+   "grade_median": 78.5,
+   "grade_iqr": 21.0,
+   "grade_n": 11225,
+   "risk_n": 6915,
+   "risk_pct": 45.59
+  },
+  "female": {
+   "n": 12359,
+   "share_pct": 44.9,
+   "clicks_mean": 282.0,
+   "clicks_sd": 382.7,
+   "clicks_median": 158.0,
+   "clicks_iqr": 294.0,
+   "grade_mean": 70.7,
+   "grade_sd": 24.5,
+   "grade_median": 75.0,
+   "grade_iqr": 23.0,
+   "grade_n": 9173,
+   "risk_n": 5235,
+   "risk_pct": 42.36
+  }
+ },
+ "tests": {
+  "imd": {
+   "n": 26500,
+   "chi2": 413.33,
+   "df": 9,
+   "p": 1.960583909117624e-83,
+   "cramers_v": 0.1249,
+   "odds_ratio": 2.384,
+   "ci_low": 2.123,
+   "ci_high": 2.677,
+   "rate_a_pct": 56.06,
+   "rate_b_pct": 34.87
+  },
+  "disability": {
+   "n": 27528,
+   "chi2": 108.61,
+   "df": 1,
+   "p": 1.9769598590447546e-25,
+   "cramers_v": 0.0628,
+   "odds_ratio": 1.535,
+   "ci_low": 1.416,
+   "ci_high": 1.665,
+   "rate_a_pct": 53.79,
+   "rate_b_pct": 43.13
+  },
+  "gender": {
+   "n": 27528,
+   "chi2": 28.66,
+   "df": 1,
+   "p": 8.622920911061186e-08,
+   "cramers_v": 0.0323,
+   "odds_ratio": 1.14,
+   "ci_low": 1.087,
+   "ci_high": 1.196,
+   "rate_a_pct": 45.59,
+   "rate_b_pct": 42.36
+  }
+ },
+ "models": [
+  {
+   "model": "Full",
+   "inputs": 29,
+   "auc": 0.777,
+   "accuracy_pct": 71.4,
+   "imd_low": {
+    "n": 2647,
+    "fpr": 32.8,
+    "fnr": 28.8,
+    "tpr": 71.2
+   },
+   "imd_high": {
+    "n": 2240,
+    "fpr": 10.6,
+    "fnr": 50.7,
+    "tpr": 49.3
+   },
+   "disability_y": {
+    "n": 2610,
+    "fpr": 29.5,
+    "fnr": 30.9,
+    "tpr": 69.1
+   },
+   "disability_n": {
+    "n": 24918,
+    "fpr": 19.0,
+    "fnr": 40.8,
+    "tpr": 59.2
+   },
+   "eod_imd": 0.219,
+   "aod_imd": 0.221,
+   "eod_disability": 0.099,
+   "aod_disability": 0.102
+  },
+  {
+   "model": "Minimized",
+   "inputs": 3,
+   "auc": 0.725,
+   "accuracy_pct": 67.5,
+   "imd_low": {
+    "n": 2647,
+    "fpr": 27.4,
+    "fnr": 40.4,
+    "tpr": 59.6
+   },
+   "imd_high": {
+    "n": 2240,
+    "fpr": 19.4,
+    "fnr": 49.6,
+    "tpr": 50.4
+   },
+   "disability_y": {
+    "n": 2610,
+    "fpr": 27.2,
+    "fnr": 44.4,
+    "tpr": 55.6
+   },
+   "disability_n": {
+    "n": 24918,
+    "fpr": 22.4,
+    "fnr": 44.9,
+    "tpr": 55.1
+   },
+   "eod_imd": 0.092,
+   "aod_imd": 0.086,
+   "eod_disability": 0.005,
+   "aod_disability": 0.027
+  },
+  {
+   "model": "Demographic",
+   "inputs": 4,
+   "auc": 0.588,
+   "accuracy_pct": 57.9,
+   "imd_low": {
+    "n": 2647,
+    "fpr": 87.7,
+    "fnr": 9.8,
+    "tpr": 90.2
+   },
+   "imd_high": {
+    "n": 2240,
+    "fpr": 1.7,
+    "fnr": 97.7,
+    "tpr": 2.3
+   },
+   "disability_y": {
+    "n": 2610,
+    "fpr": 57.3,
+    "fnr": 32.2,
+    "tpr": 67.8
+   },
+   "disability_n": {
+    "n": 24918,
+    "fpr": 17.3,
+    "fnr": 74.4,
+    "tpr": 25.6
+   },
+   "eod_imd": 0.879,
+   "aod_imd": 0.87,
+   "eod_disability": 0.422,
+   "aod_disability": 0.411
+  }
+ ],
+ "imd_rates": {
+  "0-10%": {
+   "n": 2647,
+   "risk_pct": 56.1
+  },
+  "10-20": {
+   "n": 2827,
+   "risk_pct": 52.0
+  },
+  "20-30%": {
+   "n": 2983,
+   "risk_pct": 50.1
+  },
+  "30-40%": {
+   "n": 2998,
+   "risk_pct": 44.7
+  },
+  "40-50%": {
+   "n": 2713,
+   "risk_pct": 44.1
+  },
+  "50-60%": {
+   "n": 2687,
+   "risk_pct": 43.3
+  },
+  "60-70%": {
+   "n": 2510,
+   "risk_pct": 39.9
+  },
+  "70-80%": {
+   "n": 2518,
+   "risk_pct": 41.1
+  },
+  "80-90%": {
+   "n": 2377,
+   "risk_pct": 37.3
+  },
+  "90-100%": {
+   "n": 2240,
+   "risk_pct": 34.9
+  }
+ }
+}
