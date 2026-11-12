@@ -33,7 +33,7 @@ Key values:
 - Minimized model: AUC **0.725**, AOD **0.086**.
 - Demographic-only model: AUC **0.588**, AOD **0.870**.
 
-The final cell asserts that the generated `results.json` matches `expected_results.json` exactly.
+The final cell checks the generated `results.json` against `expected_results.json` within numerical tolerance.
 
 ## Files
 
@@ -66,6 +66,7 @@ python G1_Theme2_S4_Analysis.py --download --data-dir data/oulad --out results.j
 ## Reproducibility notes
 
 - Python and direct dependencies are pinned.
+- Binder uses Python 3.12; the published outputs were generated locally on Python 3.13.7 with the same pinned package versions.
 - The Binder badge points to tag `v1.0.0`, not the moving `HEAD`.
 - The notebook computes every table from OULAD; it does not hard-code table values.
 - OULAD is public, de-identified, and licensed CC BY 4.0 (UCI Machine Learning Repository ID 349).
